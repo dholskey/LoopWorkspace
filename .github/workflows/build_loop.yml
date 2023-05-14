@@ -44,9 +44,6 @@ jobs:
           # This patch configures LoopWorkspace to use the added CGM submodules
           curl https://github.com/loopnlearn/LoopWorkspace/commit/4092277a21fa44a1258b693a5fbcce4d8d9dbd17.patch | git apply
 
-          # LoopWorkspace commit: Merge pull request to add LoopnLearn logo (from MikePlante1)
-          curl https://github.com/loopnlearn/LoopWorkspace/commit/7c1dd02e74508a171128de85741e44b09ccee118.patch | git apply
-
           # These next two patches must be combined together, do not apply one without the other
           # This applies CustomTypeOne LoopPatches to released submodules Loop and LoopKit
           # See: https://www.loopandlearn.org/custom-type-one-loop-patches
